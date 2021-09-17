@@ -150,8 +150,8 @@ function greeting(firstName, lastName){
 */
 function CuboidMaker(length, width, height){
   this.length = length;
-  this.width = width;
   this.height = height;
+  this.width = width;
 }
 
 
@@ -188,8 +188,8 @@ const cuboid = new CuboidMaker(4, 5, 5);
 
 // 🐴🐴🐴 Test your volume and surfaceArea methods by uncommenting the logs below: 🐴🐴🐴
 // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-// console.log(cuboid.volume()); // 100
-// console.log(cuboid.surfaceArea()); // 130
+console.log(cuboid.volume()); // 100
+console.log(cuboid.surfaceArea()); // 130
  
 
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
@@ -215,8 +215,8 @@ const cuboidTwo = new CuboidMakerTwo(4, 5, 5);
 
 
 //🦄🦄🦄 Test your volume and surfaceArea methods by uncommenting the logs below: 🦄🦄🦄
-// console.log(cuboidTwo.volume()); // 100
-// console.log(cuboidTwo.surfaceArea()); // 130
+console.log(cuboidTwo.volume()); // 100
+console.log(cuboidTwo.surfaceArea()); // 130
 
 
 
