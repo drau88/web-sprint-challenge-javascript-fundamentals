@@ -200,21 +200,10 @@ const cuboid = new CuboidMaker(testCuboid);
 
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
 //🦄🦄🦄 1. Take your prototypes from above and refactor into class syntax. Please rename your class CuboidMakerTwo and your object cuboidTwo 🦄🦄🦄
-class CuboidMakerTwo{
-  constructor(cuboidAttr2){
-    this.length = cuboidAttr2.length;
-    this.width = cuboidAttr2.width;
-    this.height = cuboidAttr2.height;
-  }
-
-  volume() {
-    return this.length * this.width * this.height;
-  }
-
-  surfaceArea() {
-    return 2 * ((this.length * this.width) + (this.length * this.height) + (this.width * this.height));
-  }
-
+class CuboidMakerTwo extends CuboidMaker{
+ constructor(cuboidAttrTwo){
+   super(cuboidAttrTwo);
+ }
 }
 
 const testCuboid2 = {
